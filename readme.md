@@ -24,6 +24,7 @@ git branch -M main
 # Push changes to your local repository to the upstream repository. This command is also specifying the upstream branch name
 git push -u origin main
 
+# GIT Merge Conflict Demo
 ```
 
 ## GIT File states
@@ -35,3 +36,5 @@ git push -u origin main
    - Files that are staged are slated to be commited
 4. Commited files
    - Commited files have been added to the local version history
+
+# GIT Merge Conflict Demo
