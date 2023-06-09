@@ -49,3 +49,9 @@ git push -u origin main
 | `git checkout -b branch-name`       | Create a new branch locally and give it a name                                                   |
 | `git stash`                         | Sets modifications aside to be reapplied later                                                   |
 | `git stash pop`                     | apply stashed changes to current working tree                                                    |
+| `git branch`                        | List local branches                                                                              |
+| `git branch -r`                     | List remote branches                                                                                |
+
+## How to merge branches
+1. Switch to the branch you want to merge your changes into
+   > If I made changes in a branch called `bug-fix` and want those changes in `main` I need to be in the main branch
