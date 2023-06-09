@@ -50,6 +50,8 @@ git push -u origin main
 | `git branch`                        | List local branches                                                                              |
 | `git branch -r`                     | List remote branches                                                                             |
 | `git switch main`                   | Switch to target branch (in this example the `main` branch)                                      |
+| `git fetch`                         | See what has changed upstream                                                                    |
+| `git merge other-branch`            | Merge other-branch into current branch                                                           |
 
 ## How to merge branches
 1. Switch to the branch you want to merge your changes into `git switch main`
@@ -57,3 +59,5 @@ git push -u origin main
 2. Check upstream of the target branch for unmerged changes `git fetch`
 3. Get upstream changes `git pull`
 4. Merge the branch into current branch `git merge the-name-of-the-other-branch`
+5. Commit the result of merging these branches `git commit -m "Merged bug-fix into main"`
+6. Push your new commit `git push`
