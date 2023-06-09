@@ -14,6 +14,16 @@ git add <file location>
 
 # Commit all staged changes to the local repo
 git commit -m "<commit message>"
+
+# Add an upstream origin
+git remote add origin <https://url/to/git/repo.git>
+
+# Change the name of your current branch
+git branch -M main
+
+# Push changes to your local repository to the upstream repository. This command is also specifying the upstream branch name
+git push -u origin main
+
 ```
 
 ## GIT File states
