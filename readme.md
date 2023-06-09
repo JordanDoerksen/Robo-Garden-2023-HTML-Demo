@@ -14,6 +14,8 @@ git add <file location>
 
 # Commit all staged changes to the local repo
 git commit -m "<commit message>"
+
+# GIT Merge Conflict Demo
 ```
 
 ## GIT File states
@@ -25,3 +27,5 @@ git commit -m "<commit message>"
    - Files that are staged are slated to be commited
 4. Commited files
    - Commited files have been added to the local version history
+
+# GIT Merge Conflict Demo
