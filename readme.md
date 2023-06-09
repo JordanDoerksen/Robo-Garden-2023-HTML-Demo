@@ -37,4 +37,15 @@ git push -u origin main
 4. Commited files
    - Commited files have been added to the local version history
 
-# GIT Merge Conflict Demo
+## Normal Usage Git Commands
+
+| Command                             | Action                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `git status`                        | What is the state of my current working tree? (The current state of all files in the local repo) |
+| `git add <file>`                    | Stage this file(or files)                                                                        |
+| `git commit -m "my commit message"` | Commit changes to the local version history                                                      |
+| `git push`                          | syncs local changes up to the upstream origin (e.g. github)                                      |
+| `git pull`                          | sync remote changes down to your local development environment                                   |
+| `git checkout -b branch-name`       | Create a new branch locally and give it a name                                                   |
+| `git stash`                         | Sets modifications aside to be reapplied later                                                   |
+| `git stash pop`                     | apply stashed changes to current working tree                                                    |
